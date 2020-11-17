@@ -1,0 +1,136 @@
+/* Fonts Used */
+/*font-family: 'Architects Daughter', cursive;*/
+/*font-family: 'Satisfy', cursive;*/
+/* Tags */
+* {
+  margin: 0px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav {
+  background-color: rgba(241, 187, 9, 0.4);
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #fbf6f0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+footer h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: ghostwhite;
+}
+
+/* Ids */
+.icon {
+  padding: 30px;
+  position: relative;
+  left: 550px;
+}
+
+.igIcon {
+  padding: 30px;
+}
+
+.twitterIcon {
+  padding: 30px;
+}
+
+.frontPage {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rgba(241, 187, 9, 0.4);
+  height: 670px;
+  width: 100%;
+}
+
+.sneaker1 {
+  height: 400px;
+  width: 400px;
+}
+
+.aboutPageTitle {
+  text-align: center;
+  padding: 50px;
+}
+
+.aboutUs {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.aboutContent {
+  height: 50%;
+  width: 70%;
+  padding-bottom: 100px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.items {
+  background-color: rgba(241, 187, 9, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 300px;
+          flex: 0 1 300px;
+  /*  No stretching: */
+  height: 300px;
+  margin: 50px;
+  margin-top: 60px;
+  place-items: center;
+}
+
+.shoeImg {
+  height: 200px;
+  width: 200px;
+}
+
+.boy {
+  position: relative;
+  left: 40px;
+}
+/*# sourceMappingURL=styles.css.map */
